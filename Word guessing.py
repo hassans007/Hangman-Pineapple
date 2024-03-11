@@ -1,11 +1,6 @@
 import random
-#dhjsfhj
-# Define a dictionary to store words for each category
-categories = {
-    "Fruit": ["apple", "banana", "orange", "grape", "strawberry", "pineapple"],
-    "Cities": ["London", "Paris", "New York", "Tokyo", "Sydney", "Rome"],
-    "Books": ["Dune", "Sherlock", "Harry Potter", "Lord of the Rings", "The Great Gatsby", "To Kill a Mockingbird"]
-}
+# Assuming you have a file named word_bank.py with categories defined in it
+from word_bank import categories
 
 def choose_word(category):
     # Select a random word from the chosen category
